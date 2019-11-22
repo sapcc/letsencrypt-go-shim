@@ -16,6 +16,10 @@ func (Manager) CacheFile(val string) error {
 	return errUnimplemented
 }
 
+func (Manager) Registered() bool {
+	return false
+}
+
 func (Manager) Register(val string) error {
 	return errUnimplemented
 }
