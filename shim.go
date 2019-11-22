@@ -20,7 +20,7 @@ func (Manager) Registered() bool {
 	return false
 }
 
-func (Manager) Register(val string) error {
+func (Manager) Register(val1 string, val2 func(string) bool) error {
 	return errUnimplemented
 }
 
